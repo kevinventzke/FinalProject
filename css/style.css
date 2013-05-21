@@ -1,0 +1,15 @@
+body {
+	padding: 12px;
+}
+
+#container {
+	padding-top: 24px;
+	background-color: #F5F5F5;
+}
+
+#header {
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Julius Sans One', sans-serif;
+	color: black;
+}

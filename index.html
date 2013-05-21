@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Final Project</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/smoothness/jquery-ui-1.10.3.custom.min.css"/>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+		<script src="js/functions.js"></script>
+	</head>
+	<script>
+		facebookLogin();
+	</script>
+	<body>
+		<div id="fb-root"></div>
+		<div id="container">
+			<div id="header">
+				Facebook Movie Recommendations
+			</div>
+			<fb:login-button id="facebookButton" scope="user_likes,friends_likes,read_friendlists" show-faces="true"></fb:login-button>
+			<div id = "myMovies">
+				<table id ="myMoviesTable" border="1">
+					<tr>
+						<th>Cover</th>
+						<th>Name</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
